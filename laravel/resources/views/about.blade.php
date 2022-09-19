@@ -2,57 +2,139 @@
 
 @section('content')
 
-    <!-- Carousel Start -->
-{{--    <div class="container-fluid p-0 mb-5">--}}
-{{--        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">--}}
-{{--            <div class="carousel-inner">--}}
-{{--                <div class="carousel-item active">--}}
-{{--                    <img class="w-100" src="img/slide-1.jpeg" alt="Image">--}}
-{{--                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">--}}
-{{--                        <div class="p-3" style="max-width: 700px;">--}}
-{{--                            <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">E-Hotel</h6>--}}
-{{--                            <h1 class="display-3 text-white mb-4 animated slideInDown">A Place Like Home</h1>--}}
-{{--                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>--}}
-{{--                            <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="carousel-item">--}}
-{{--                    <img class="w-100" src="img/slide-2.jpeg" alt="Image">--}}
-{{--                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">--}}
-{{--                        <div class="p-3" style="max-width: 700px;">--}}
-{{--                            <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">E-Hotel</h6>--}}
-{{--                            <h1 class="display-3 text-white mb-4 animated slideInDown">Let make you like Price and Princess</h1>--}}
-{{--                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>--}}
-{{--                            <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="carousel-item">--}}
-{{--                    <img class="w-100" src="img/slide-3.jpeg" alt="Image">--}}
-{{--                    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">--}}
-{{--                        <div class="p-3" style="max-width: 700px;">--}}
-{{--                            <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">E-Hotel</h6>--}}
-{{--                            <h1 class="display-3 text-white mb-4 animated slideInDown">You Are Fit To Be There</h1>--}}
-{{--                            <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>--}}
-{{--                            <a href="" class="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a>--}}
-{{--                        </div>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--            <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"--}}
-{{--                    data-bs-slide="prev">--}}
-{{--                <span class="carousel-control-prev-icon" aria-hidden="true"></span>--}}
-{{--                <span class="visually-hidden">Previous</span>--}}
-{{--            </button>--}}
-{{--            <button class="carousel-control-next" type="button" data-bs-target="#header-carousel"--}}
-{{--                    data-bs-slide="next">--}}
-{{--                <span class="carousel-control-next-icon" aria-hidden="true"></span>--}}
-{{--                <span class="visually-hidden">Next</span>--}}
-{{--            </button>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-    <!-- Carousel End -->
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/slide-2.jpeg);">
+        <div class="container-fluid page-header-inner py-5">
+            <div class="container text-center pb-5">
+                <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center text-uppercase">
+                        <li class="breadcrumb-item"><a href="{{url('home')}}">Home</a></li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">About</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+    <!-- Booking Start -->
+    <div class="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="bg-white shadow" style="padding: 35px;">
+                <div class="row g-2">
+                    <div class="col-md-10">
+                        <div class="row g-2">
+                            <div class="col-md-3">
+                                <div class="date" id="date1" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input"
+                                           placeholder="Check in" data-target="#date1" data-toggle="datetimepicker" />
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="date" id="date2" data-target-input="nearest">
+                                    <input type="text" class="form-control datetimepicker-input" placeholder="Check out" data-target="#date2" data-toggle="datetimepicker"/>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <select class="form-select">
+                                    <option selected>Adult</option>
+                                    <option value="1">Adult 1</option>
+                                    <option value="2">Adult 2</option>
+                                    <option value="3">Adult 3</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <select class="form-select">
+                                    <option selected>Child</option>
+                                    <option value="1">Child 1</option>
+                                    <option value="2">Child 2</option>
+                                    <option value="3">Child 3</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-primary w-100">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Booking End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6">
+                    <h6 class="section-title text-start text-primary text-uppercase">About Us</h6>
+                    <h1 class="mb-4">Welcome to <span class="text-primary text-uppercase">E-Hotel</span></h1>
+                    <p class="mb-4">Welcome to E-hotel, where you be like KING and QUEEN, a comfort zone you ever wanted to be, where you will always want to be and spend your night always</p>
+                    <div class="row g-3 pb-4">
+                        <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
+                            <div class="border rounded p-1">
+                                <div class="border rounded text-center p-4">
+                                    <i class="fa fa-hotel fa-2x text-primary mb-2"></i>
+                                    <h2 class="mb-1" data-toggle="counter-up">100</h2>
+                                    <p class="mb-0">Rooms</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 wow fadeIn" data-wow-delay="0.3s">
+                            <div class="border rounded p-1">
+                                <div class="border rounded text-center p-4">
+                                    <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>
+                                    <h2 class="mb-1" data-toggle="counter-up">20</h2>
+                                    <p class="mb-0">Staffs</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 wow fadeIn" data-wow-delay="0.5s">
+                            <div class="border rounded p-1">
+                                <div class="border rounded text-center p-4">
+                                    <i class="fa fa-users fa-2x text-primary mb-2"></i>
+                                    <h2 class="mb-1" data-toggle="counter-up">1329</h2>
+                                    <p class="mb-0">Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="btn btn-primary py-3 px-5 mt-2" href="">To Know More</a>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row g-3">
+                        <div class="col-6 text-end">
+                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/about1.jpg" style="margin-top: 25%;">
+                        </div>
+                        <div class="col-6 text-start">
+                            <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/about2.jpg">
+                        </div>
+                        <div class="col-6 text-end">
+                            <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/about3.jpg">
+                        </div>
+                        <div class="col-6 text-start">
+                            <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/about4.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title text-center text-primary text-uppercase">Our Team</h6>
+                <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Staffs</span></h1>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- Team End -->
 
 
     @include('layouts.footer')
