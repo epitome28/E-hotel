@@ -159,6 +159,128 @@
     </div>
     <!-- About End -->
 
+    <!-- Branches Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="section-title text-center text-primary text-uppercase">Our Branches</h6>
+                    <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Branches</span></h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="room-item shadow shadow2 rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/white house.jpg" alt="">
+                            </div>
+                            <div class="p-4 mt-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h5 class="mb-0">White House</h5>
+                                </div>
+                                <p class="text-body mb-3">24 Iyale Street, Beside Ikeja City Mall, Alausa, Lagos, Nigeria</p>
+                                <div class="d-flex justify-content-between">
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="room-item shadow shadow2 rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/Allen.jpg" alt="">
+
+                            </div>
+                            <div class="p-4 mt-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h5 class="mb-0">Allen</h5>
+                                </div>
+                                <p class="text-body mb-3">1 Folawewo, Ogundana St, Allen, Ikeja, Lagos, Nigeria</p>
+                                <div class="d-flex justify-content-between">
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="room-item shadow shadow2 rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/118.jpg" alt="">
+                            </div>
+                            <div class="p-4 mt-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h5 class="mb-0">118</h5>
+                                </div>
+                                <p class="text-body mb-3">118, Awolowo Way, Ikeja, Lagos, Nigeria</p>
+                                <div class="d-flex justify-content-between">
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="room-item shadow shadow2 rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/iyala.jpg" alt="">
+                            </div>
+                            <div class="p-4 mt-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h5 class="mb-0">Iyala</h5>
+                                </div>
+                                <p class="text-body mb-3"> 3 Iyala Street, Alausa, Ikeje, Lagos, Nigeria</p>
+                                <div class="d-flex justify-content-between">
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="room-item shadow shadow2 rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/faita.jpg" alt="">
+
+                            </div>
+                            <div class="p-4 mt-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h5 class="mb-0">Fatai</h5>
+                                </div>
+                                <p class="text-body mb-3">23 Fatai Irawo Street, Off Muritala Muhamed Intl Airport Road, Ajao Estate, lagos</p>
+                                <div class="d-flex justify-content-between">
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="room-item shadow shadow2 rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/118.jpg" alt="">
+                            </div>
+                            <div class="p-4 mt-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h5 class="mb-0">Babatola</h5>
+                                </div>
+                                <p class="text-body mb-3">3, Babatola Drive, Opposite Computer Village, Ikeja, Lagos</p>
+                                <div class="d-flex justify-content-between">
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
+                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Branches End -->
+
     <!-- Room Start -->
     <div class="container-xxl py-5">
         <div class="container">
@@ -306,91 +428,92 @@
     </div>
     <!-- Video Start -->
 
-{{--    <!-- Service Start -->--}}
-{{--    <div class="container-xxl py-5">--}}
-{{--        <div class="container">--}}
-{{--            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">--}}
-{{--                <h6 class="section-title text-center text-primary text-uppercase">Our Services</h6>--}}
-{{--                <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Services</span></h1>--}}
-{{--            </div>--}}
-{{--            <div class="row g-4">--}}
-{{--                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">--}}
-{{--                    <a class="service-item rounded" href="">--}}
-{{--                        <div class="service-icon bg-transparent border rounded p-1">--}}
-{{--                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">--}}
-{{--                                <i class="fa fa-hotel fa-2x text-primary"></i>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <h5 class="mb-3">Rooms & Appartment</h5>--}}
-{{--                        <p class="text-body mb-0">I always remember my childhood house with happy memories. There was a beautiful garden, and outside my bedroom window was a jasmine vine which would open in the evenings, giving off a divine scent.</p>--}}
-{{--                    </a>--}}
-{{--                </div>--}}
-{{--                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">--}}
-{{--                    <a class="service-item rounded" href="">--}}
-{{--                        <div class="service-icon bg-transparent border rounded p-1">--}}
-{{--                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">--}}
-{{--                                <i class="fa fa-utensils fa-2x text-primary"></i>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <h5 class="mb-3">Food & Restaurant</h5>--}}
-{{--                        <p class="text-body mb-0">Now I will take the oil of Life, the eggs of Destiny, the pan of Justice, the sausage of Truth, and go to cook the scrambled eggs of the Apocalypse. </p>--}}
-{{--                    </a>--}}
-{{--                </div>--}}
-{{--                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">--}}
-{{--                    <a class="service-item rounded" href="">--}}
-{{--                        <div class="service-icon bg-transparent border rounded p-1">--}}
-{{--                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">--}}
-{{--                                <i class="fa fa-spa fa-2x text-primary"></i>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <h5 class="mb-3">Spa & Fitness</h5>--}}
-{{--                        <p class="text-body mb-0">Fitness is not about competing with others. It’s about competing with yourself and working to be better than you were yesterday.</p>--}}
-{{--                    </a>--}}
-{{--                </div>--}}
-{{--                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">--}}
-{{--                    <a class="service-item rounded" href="">--}}
-{{--                        <div class="service-icon bg-transparent border rounded p-1">--}}
-{{--                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">--}}
-{{--                                <i class="fa fa-swimmer fa-2x text-primary"></i>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <h5 class="mb-3">Sports & Gaming</h5>--}}
-{{--                        <p class="text-body mb-0">Remember, it doesn’t matter whether you win or lose; what matters is whether I win or lose</p>--}}
-{{--                    </a>--}}
-{{--                </div>--}}
-{{--                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">--}}
-{{--                    <a class="service-item rounded" href="">--}}
-{{--                        <div class="service-icon bg-transparent border rounded p-1">--}}
-{{--                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">--}}
-{{--                                <i class="fa fa-glass-cheers fa-2x text-primary"></i>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <h5 class="mb-3">Event & Party</h5>--}}
-{{--                        <p class="text-body mb-0">Someone said that life is a party. You join in after it’s started and leave before it’s finished.</p>--}}
-{{--                    </a>--}}
-{{--                </div>--}}
-{{--                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">--}}
-{{--                    <a class="service-item rounded" href="">--}}
-{{--                        <div class="service-icon bg-transparent border rounded p-1">--}}
-{{--                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">--}}
-{{--                                <i class="fa fa-dumbbell fa-2x text-primary"></i>--}}
-{{--                            </div>--}}
-{{--                        </div>--}}
-{{--                        <h5 class="mb-3">GYM & Yoga</h5>--}}
-{{--                        <p class="text-body mb-0">My doctor recently told me that jogging could add years to my life. I think he was right. I feel ten years older already</p>--}}
-{{--                    </a>--}}
-{{--                </div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-{{--    <!-- Service End -->--}}
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title text-center text-primary text-uppercase">Our Services</h6>
+                <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Services</span></h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <a class="service-item rounded" href="">
+                        <div class="service-icon bg-transparent border rounded p-1">
+                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                <i class="fa fa-hotel fa-2x text-primary"></i>
+                            </div>
+                        </div>
+                        <h5 class="mb-3">Rooms & Appartment</h5>
+                        <p class="text-body mb-0">I always remember my childhood house with happy memories. There was a beautiful garden, and outside my bedroom window was a jasmine vine which would open in the evenings, giving off a divine scent.</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <a class="service-item rounded" href="">
+                        <div class="service-icon bg-transparent border rounded p-1">
+                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                <i class="fa fa-utensils fa-2x text-primary"></i>
+                            </div>
+                        </div>
+                        <h5 class="mb-3">Food & Restaurant</h5>
+                        <p class="text-body mb-0">Now I will take the oil of Life, the eggs of Destiny, the pan of Justice, the sausage of Truth, and go to cook the scrambled eggs of the Apocalypse. </p>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <a class="service-item rounded" href="">
+                        <div class="service-icon bg-transparent border rounded p-1">
+                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                <i class="fa fa-spa fa-2x text-primary"></i>
+                            </div>
+                        </div>
+                        <h5 class="mb-3">Spa & Fitness</h5>
+                        <p class="text-body mb-0">Fitness is not about competing with others. It’s about competing with yourself and working to be better than you were yesterday.</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <a class="service-item rounded" href="">
+                        <div class="service-icon bg-transparent border rounded p-1">
+                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                <i class="fa fa-swimmer fa-2x text-primary"></i>
+                            </div>
+                        </div>
+                        <h5 class="mb-3">Sports & Gaming</h5>
+                        <p class="text-body mb-0">Remember, it doesn’t matter whether you win or lose; what matters is whether I win or lose</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <a class="service-item rounded" href="">
+                        <div class="service-icon bg-transparent border rounded p-1">
+                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                <i class="fa fa-glass-cheers fa-2x text-primary"></i>
+                            </div>
+                        </div>
+                        <h5 class="mb-3">Event & Party</h5>
+                        <p class="text-body mb-0">Someone said that life is a party. You join in after it’s started and leave before it’s finished.</p>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <a class="service-item rounded" href="">
+                        <div class="service-icon bg-transparent border rounded p-1">
+                            <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
+                                <i class="fa fa-dumbbell fa-2x text-primary"></i>
+                            </div>
+                        </div>
+                        <h5 class="mb-3">GYM & Yoga</h5>
+                        <p class="text-body mb-0">My doctor recently told me that jogging could add years to my life. I think he was right. I feel ten years older already</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
 
     <!-- Testimonial Start -->
+
     <div class="container-xxl testimonial my-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s">
         <div class="container">
             <div class="owl-carousel testimonial-carousel py-5">
                 <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                    <p>Thank you for a truly amazing stay! Your hospitality is quite outstanding. The sports centre is also very good with excellent quality tennis courts. Hope to be back soon. </p>
+                    <p>For the price and location a very nice hotel. Nice staff, Nice breakfast (vegetarian options as well), rooms and bathrooms are a bit small but nothing to complain about (since the price), good "sound isolation" between the rooms as far as we could notice. Good distance to things that you probably want to do on a weekend in Lagos.</p>
                     <div class="d-flex align-items-center">
                         <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg" style="width: 45px; height: 45px;">
                         <div class="ps-3">
@@ -401,7 +524,7 @@
                     <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
                 </div>
                 <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                    <p>I am impressed with Royal Cliff. They are actually newer than some new hotels as they are continuously improving their product and adding new facilities.</p>
+                    <p>Thank you so much for your help and cooperation. My daughter would forget her head if it was loose! We will definitely use your hotel again when we visit London. You and your staff could not have been any more helpful. We were delighted that we had chosen E-hotel.</p>
                     <div class="d-flex align-items-center">
                         <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
                         <div class="ps-3">
@@ -411,15 +534,100 @@
                     </div>
                     <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
                 </div>
+                <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                    <p>I left so early on my last day on April 10th that I didn’t get to say how much I enjoyed my stay with you again this month. Your rooms are great, and your friendly help and attention to detail were much appreciated! With hopes that you have an enjoyable spring and summer, and I’m very much looking forward to staying with you again this September on my way back from Austria</p>
+                    <div class="d-flex align-items-center">
+                        <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 45px; height: 45px;">
+                        <div class="ps-3">
+                            <h6 class="fw-bold mb-1">Oloyede Victor</h6>
+                            <small>lawyers</small>
+                        </div>
+                    </div>
+                    <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                </div>
             </div>
-
-
-
         </div>
     </div>
     <!-- Testimonial End -->
 
 
+    <!-- Team Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title text-center text-primary text-uppercase">Our Team</h6>
+                <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Staffs</span></h1>
+            </div>
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded shadow shadow1 overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid team-img" src="img/team-1.jpg" alt="">
+                            <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 mt-3">
+                            <h5 class="fw-bold mb-0">Sunny Oshinsegun</h5>
+                            <small>Chairman</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="rounded shadow shadow1 overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid team-img" src="img/bukola.jpg" alt="">
+                            <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 mt-3">
+                            <h5 class="fw-bold mb-0">Recheal Oluwabukola</h5>
+                            <small>Manager</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="rounded shadow shadow1 overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid team-img" src="img/akin.jpg" alt="">
+                            <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 mt-3">
+                            <h5 class="fw-bold mb-0">Alabi Akinwumi</h5>
+                            <small>Manager</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="rounded shadow shadow1 overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid team-img " src="img/bunmi.jpg" alt="">
+                            <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 mt-3">
+                            <h5 class="fw-bold mb-0">Egunjobi Olubunmi </h5>
+                            <small>Manager</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="btn btn-primary py-3 px-5 mt-2" href="{{url('about')}}">To Know More</a>
+        </div>
+    </div>
+    <!-- Team End -->
 
 
 @include('layouts.footer')

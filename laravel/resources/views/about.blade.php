@@ -130,7 +130,72 @@
                 <h6 class="section-title text-center text-primary text-uppercase">Our Team</h6>
                 <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Staffs</span></h1>
             </div>
-
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="rounded shadow shadow1 overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid team-img" src="img/team-1.jpg" alt="">
+                            <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 mt-3">
+                            <h5 class="fw-bold mb-0">Sunny Oshinsegun</h5>
+                            <small>Chairman</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="rounded shadow shadow1 overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid team-img" src="img/bukola.jpg" alt="">
+                            <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 mt-3">
+                            <h5 class="fw-bold mb-0">Recheal Oluwabukola</h5>
+                            <small>Manager</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="rounded shadow shadow1 overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid team-img" src="img/akin.jpg" alt="">
+                            <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 mt-3">
+                            <h5 class="fw-bold mb-0">Alabi Akinwumi</h5>
+                            <small>Manager</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="rounded shadow shadow1 overflow-hidden">
+                        <div class="position-relative">
+                            <img class="img-fluid team-img " src="img/bunmi.jpg" alt="">
+                            <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-center p-4 mt-3">
+                            <h5 class="fw-bold mb-0">Egunjobi Olubunmi </h5>
+                            <small>Manager</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!-- Team End -->

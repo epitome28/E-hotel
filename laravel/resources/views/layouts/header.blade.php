@@ -44,7 +44,7 @@
         <div class="row gx-0">
             <div class="col-lg-3 bg-dark d-none d-lg-block">
                 <a href="{{url('home')}}" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                    <img src="img/logo.png" alt="Image"  </img>
+                    <img src="img/logo.png" alt="Image" >
                 </a>
             </div>
             <div class="col-lg-9">
@@ -71,7 +71,7 @@
                 </div>
                 <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
                     <a href="{{url('home')}}" class="navbar-brand d-block d-lg-none">
-                        <img src="img/logo.png" alt="Image"  </img>
+                        <img src="img/logo.png" alt="Image">
                     </a>
                     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
@@ -82,14 +82,14 @@
                             <a href="{{url('about')}}" class="nav-item nav-link">About</a>
                             <a href="#" class="nav-item nav-link">Services</a>
                             <a href="#" class="nav-item nav-link">Rooms</a>
-                            <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                                <div class="dropdown-menu rounded-0 m-0">
-                                    <a href="#" class="dropdown-item">Booking</a>
-                                    <a href="#" class="dropdown-item">Our Team</a>
-                                    <a href="" class="dropdown-item">Testimonial</a>
-                                </div>
-                            </div>
+{{--                            <div class="nav-item dropdown">--}}
+{{--                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>--}}
+{{--                                <div class="dropdown-menu rounded-0 m-0">--}}
+{{--                                    <a href="#" class="dropdown-item">Booking</a>--}}
+{{--                                    <a href="#" class="dropdown-item">Our Team</a>--}}
+{{--                                    <a href="" class="dropdown-item">Testimonial</a>--}}
+{{--                                </div>--}}
+{{--                            </div>--}}
                             <a href="{{url('contact')}}" class="nav-item nav-link">Contact</a>
                         </div>
                         <a href="#" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">LOGIN<i class="fa fa-arrow-right ms-3"></i></a>
