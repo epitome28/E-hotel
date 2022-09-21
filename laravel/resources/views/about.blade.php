@@ -3,7 +3,7 @@
 @section('content')
 
     <!-- Page Header Start -->
-    <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/slide-2.jpeg);">
+    <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/slide-2.jpeg);" >
         <div class="container-fluid page-header-inner py-5">
             <div class="container text-center pb-5">
                 <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
@@ -100,7 +100,7 @@
                             </div>
                         </div>
                     </div>
-                    <a class="btn btn-primary py-3 px-5 mt-2" href="">To Know More</a>
+
                 </div>
                 <div class="col-lg-6">
                     <div class="row g-3">
@@ -131,11 +131,9 @@
                 <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Staffs</span></h1>
             </div>
 
-
         </div>
     </div>
     <!-- Team End -->
-
 
     @include('layouts.footer')
 @endsection
