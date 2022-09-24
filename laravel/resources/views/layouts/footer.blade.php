@@ -50,11 +50,11 @@
                     </div>
                     <div class="col-md-6">
                         <h6 class="section-title text-start text-primary text-uppercase mb-4">Services</h6>
-                        <a class="btn btn-link" href="">Food & Restaurant</a>
-                        <a class="btn btn-link" href="">Spa & Fitness</a>
-                        <a class="btn btn-link" href="">Sports & Gaming</a>
-                        <a class="btn btn-link" href="">Event & Party</a>
-                        <a class="btn btn-link" href="">GYM & Yoga</a>
+                        <a class="btn btn-link" href="{{url('services')}}">Food & Restaurant</a>
+                        <a class="btn btn-link" href="{{url('services')}}">Spa & Fitness</a>
+                        <a class="btn btn-link" href="{{url('services')}}">Sports & Gaming</a>
+                        <a class="btn btn-link" href="{{url('services')}}">Event & Party</a>
+                        <a class="btn btn-link" href="{{url('services')}}">GYM & Yoga</a>
                     </div>
                 </div>
             </div>

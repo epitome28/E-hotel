@@ -177,10 +177,25 @@
                                 <div class="d-flex justify-content-between mb-3">
                                     <h5 class="mb-0">White House</h5>
                                 </div>
-                                <p class="text-body mb-3">24 Iyale Street, Beside Ikeja City Mall, Alausa, Lagos, Nigeria</p>
+                                <p class="text-body mb-3">24 Iyalla Street, Beside Ikeja City Mall, Alausa, Lagos, Nigeria</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{url('room')}}">View Detail</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="room-item shadow shadow2 rounded overflow-hidden">
+                            <div class="position-relative">
+                                <img class="img-fluid" src="img/iyala.jpg" alt="">
+                            </div>
+                            <div class="p-4 mt-2">
+                                <div class="d-flex justify-content-between mb-3">
+                                    <h5 class="mb-0">Iyala</h5>
+                                </div>
+                                <p class="text-body mb-3"> 3 Iyalla Street, Alausa, Ikeja, Lagos, Nigeria</p>
+                                <div class="d-flex justify-content-between">
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{url('room')}}">View Detail</a>
                                 </div>
                             </div>
                         </div>
@@ -197,12 +212,12 @@
                                 </div>
                                 <p class="text-body mb-3">1 Folawewo, Ogundana St, Allen, Ikeja, Lagos, Nigeria</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{url('room')}}">View Detail</a>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="room-item shadow shadow2 rounded overflow-hidden">
                             <div class="position-relative">
@@ -214,26 +229,7 @@
                                 </div>
                                 <p class="text-body mb-3">118, Awolowo Way, Ikeja, Lagos, Nigeria</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="room-item shadow shadow2 rounded overflow-hidden">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/iyala.jpg" alt="">
-                            </div>
-                            <div class="p-4 mt-2">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Iyala</h5>
-                                </div>
-                                <p class="text-body mb-3"> 3 Iyala Street, Alausa, Ikeje, Lagos, Nigeria</p>
-                                <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{url('room')}}">View Detail</a>
                                 </div>
                             </div>
                         </div>
@@ -250,8 +246,7 @@
                                 </div>
                                 <p class="text-body mb-3">23 Fatai Irawo Street, Off Muritala Muhamed Intl Airport Road, Ajao Estate, lagos</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{url('room')}}">View Detail</a>
                                 </div>
                             </div>
                         </div>
@@ -259,7 +254,7 @@
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="room-item shadow shadow2 rounded overflow-hidden">
                             <div class="position-relative">
-                                <img class="img-fluid" src="img/118.jpg" alt="">
+                                <img class="img-fluid" src="img/babatola.jpg" alt="">
                             </div>
                             <div class="p-4 mt-2">
                                 <div class="d-flex justify-content-between mb-3">
@@ -267,8 +262,7 @@
                                 </div>
                                 <p class="text-body mb-3">3, Babatola Drive, Opposite Computer Village, Ikeja, Lagos</p>
                                 <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="{{url('room')}}">View Detail</a>
                                 </div>
                             </div>
                         </div>
@@ -282,109 +276,116 @@
     <!-- Branches End -->
 
     <!-- Room Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="container">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="section-title text-center text-primary text-uppercase">Our Rooms</h6>
-                    <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Rooms</span></h1>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="room-item shadow rounded overflow-hidden">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/room-1.jpg" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">#25,000/Short Rest</small>
+    <div class="container-fluid p-0 mb-5">
+        <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="container-xxl py-5">
+                    <div class="container">
+                        <div class="container">
+                            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                                <h6 class="section-title text-center text-primary text-uppercase">Our Rooms</h6>
+                                <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Rooms</span></h1>
                             </div>
-                            <div class="p-4 mt-2">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Paris</h5>
-                                    <div class="ps-2">
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
+                            <div class="row g-4">
+                                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                    <div class="room-item shadow rounded overflow-hidden">
+                                        <div class="position-relative">
+                                            <img class="img-fluid" src="img/room-1.jpg" alt="">
+                                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">#25,000/Short Rest</small>
+                                        </div>
+                                        <div class="p-4 mt-2">
+                                            <div class="d-flex justify-content-between mb-3">
+                                                <h5 class="mb-0">Paris</h5>
+                                                <div class="ps-2">
+                                                    <small class="fa fa-star text-primary"></small>
+                                                    <small class="fa fa-star text-primary"></small>
+                                                    <small class="fa fa-star text-primary"></small>
+                                                    <small class="fa fa-star text-primary"></small>
+                                                    <small class="fa fa-star text-primary"></small>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-3">
+                                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
+                                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
+                                                <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                            </div>
+                                            <p class="text-body mb-3">Your bed is an important part of your life. We spend a third of our lives asleep, so it is not surprising that your time slumbering can have a big impact on your waking life.</p>
+                                            <div class="d-flex justify-content-between">
+                                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
+                                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
-                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                    <div class="room-item shadow rounded overflow-hidden">
+                                        <div class="position-relative">
+                                            <img class="img-fluid" src="img/room-2.jpg" alt="">
+                                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">#36,000/Night</small>
+                                        </div>
+                                        <div class="p-4 mt-2">
+                                            <div class="d-flex justify-content-between mb-3">
+                                                <h5 class="mb-0">London</h5>
+                                                <div class="ps-2">
+                                                    <small class="fa fa-star text-primary"></small>
+                                                    <small class="fa fa-star text-primary"></small>
+                                                    <small class="fa fa-star text-primary"></small>
+                                                    <small class="fa fa-star text-primary"></small>
+                                                    <small class="fa fa-star text-primary"></small>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-3">
+                                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
+                                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
+                                                <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                            </div>
+                                            <p class="text-body mb-3">Your bed is an important part of your life. We spend a third of our lives asleep, so it is not surprising that your time slumbering can have a big impact on your waking life.</p>
+                                            <div class="d-flex justify-content-between">
+                                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
+                                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <p class="text-body mb-3">Your bed is an important part of your life. We spend a third of our lives asleep, so it is not surprising that your time slumbering can have a big impact on your waking life.</p>
-                                <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                                    <div class="room-item shadow rounded overflow-hidden">
+                                        <div class="position-relative">
+                                            <img class="img-fluid" src="img/room-3.jpg" alt="">
+                                            <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">#46,000/Night</small>
+                                        </div>
+                                        <div class="p-4 mt-2">
+                                            <div class="d-flex justify-content-between mb-3">
+                                                <h5 class="mb-0">Toronto</h5>
+                                                <div class="ps-2">
+                                                    <small class="fa fa-star text-primary"></small>
+                                                    <small class="fa fa-star text-primary"></small>
+                                                    <small class="fa fa-star text-primary"></small>
+                                                    <small class="fa fa-star text-primary"></small>
+                                                    <small class="fa fa-star text-primary"></small>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-3">
+                                                <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
+                                                <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
+                                                <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
+                                            </div>
+                                            <p class="text-body mb-3">Your bed is an important part of your life. We spend a third of our lives asleep, so it is not surprising that your time slumbering can have a big impact on your waking life.</p>
+                                            <div class="d-flex justify-content-between">
+                                                <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
+                                                <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="room-item shadow rounded overflow-hidden">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/room-2.jpg" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">#36,000/Night</small>
-                            </div>
-                            <div class="p-4 mt-2">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">London</h5>
-                                    <div class="ps-2">
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                    </div>
-                                </div>
-                                <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
-                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
-                                </div>
-                                <p class="text-body mb-3">Your bed is an important part of your life. We spend a third of our lives asleep, so it is not surprising that your time slumbering can have a big impact on your waking life.</p>
-                                <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="room-item shadow rounded overflow-hidden">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/room-3.jpg" alt="">
-                                <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">#46,000/Night</small>
-                            </div>
-                            <div class="p-4 mt-2">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <h5 class="mb-0">Toronto</h5>
-                                    <div class="ps-2">
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                        <small class="fa fa-star text-primary"></small>
-                                    </div>
-                                </div>
-                                <div class="d-flex mb-3">
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
-                                    <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
-                                    <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
-                                </div>
-                                <p class="text-body mb-3">Your bed is an important part of your life. We spend a third of our lives asleep, so it is not surprising that your time slumbering can have a big impact on your waking life.</p>
-                                <div class="d-flex justify-content-between">
-                                    <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                    <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
+
     <!-- Room End -->
 
     <!-- Video Start -->
@@ -505,10 +506,10 @@
             </div>
         </div>
     </div>
-    <!-- Service End -->
+    <!-- Sevice End -->
+
 
     <!-- Testimonial Start -->
-
     <div class="container-xxl testimonial my-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s">
         <div class="container">
             <div class="owl-carousel testimonial-carousel py-5">
@@ -549,7 +550,6 @@
         </div>
     </div>
     <!-- Testimonial End -->
-
 
     <!-- Team Start -->
     <div class="container-xxl py-5">
@@ -628,6 +628,9 @@
         </div>
     </div>
     <!-- Team End -->
+
+
+
 
 
 @include('layouts.footer')

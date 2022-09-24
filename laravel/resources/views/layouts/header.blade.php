@@ -78,10 +78,10 @@
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                            <a href="{{url('home')}}" class="nav-item nav-link active">Home</a>
+                            <a href="{{url('home')}}" class="nav-item nav-link">Home</a>
                             <a href="{{url('about')}}" class="nav-item nav-link">About</a>
-                            <a href="#" class="nav-item nav-link">Services</a>
-                            <a href="#" class="nav-item nav-link">Rooms</a>
+                            <a href="{{url('services')}}" class="nav-item nav-link">Services</a>
+                            <a href="{{url('room')}}" class="nav-item nav-link">Rooms</a>
 {{--                            <div class="nav-item dropdown">--}}
 {{--                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>--}}
 {{--                                <div class="dropdown-menu rounded-0 m-0">--}}

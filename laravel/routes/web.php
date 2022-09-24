@@ -23,5 +23,13 @@ Route::get('/dashboard', function () {
 
 Route::view('home', 'home');
 Route::view('about', 'about');
+Route::view('services', 'services');
+Route::view('room', 'room');
 Route::view('contact', 'contact');
+Route::view('room-details1', 'room-details1');
+Route::view('room-details2', 'room-details2');
+Route::view('room-details3', 'room-details3');
+Route::view('room-details4', 'room-details4');
+Route::view('room-details5', 'room-details5');
+Route::view('room-details6', 'room-details6');
 require __DIR__.'/auth.php';
