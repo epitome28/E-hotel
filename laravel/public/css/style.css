@@ -592,3 +592,326 @@
     from {opacity: .4}
     to {opacity: 1}
 }
+
+
+
+/*************************banner Search***********************/
+.banner-search-form {
+    background: rgba(255,255,255,0.85);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    padding: 20px;
+}
+
+.banner-search-form h2 {
+    color: #dd572a;
+    font-size: 55px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    margin-top: 0;
+    text-shadow: none;
+}
+
+.checkboxWrap {
+    margin: 0 0;
+}
+
+.checkboxWrap .checkCol {
+    float: left;
+    /*width: 16.66%;*/
+    width:25%;
+    padding: 0 5px;
+    text-align: left;
+}
+
+.search-filter-Row {
+    border: 1px solid #afafaf;
+    border-radius: 5px;
+}
+
+.common-cols {
+    width: 11.66%;
+    float: left;
+    padding: 10px 5px;
+    border-right: 1px solid #d5d6d6;
+}
+
+.common-cols:last-child {
+    border-right: 0 none;
+}
+
+.common-cols.city-coloumn {
+    width: 21%;
+}
+
+.bookingTypRow {
+    text-align: center;
+}
+
+.bookingTypRow .radioCol {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.banner-search-form .type {
+    font-size: 18px;
+    color: #7770b7;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.banner-search-form .type span.bookingIcon {
+    background: url(../images/booking-type-icon.png) left center no-repeat;
+    padding-left: 20px;
+    display: inline-block;
+}
+
+.bookingTypRow {
+    margin-bottom: 10px;
+}
+
+.radio-warp .radioCol {
+    position: relative;
+}
+
+.radio-warp .radioCol input {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.radio-warp .radioCol label {
+    position: relative;
+    font-size: 18px;
+    color: #7a7a7a;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    text-transform: none;
+}
+
+.radio-warp .radioCol label:before {
+    background: #fff;
+    position: absolute;
+    border: 1px solid #585858;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    content: "";
+    position: absolute;
+    left: 7px;
+    top: 50%;
+    width: 19px;
+    height: 19px;
+    margin-top: -10px;
+}
+
+.radio-warp .radioCol input[type="radio"]:checked + label {
+    background: #7770b7;
+    color: #fff;
+}
+
+.radio-warp .radioCol input[type="radio"]:checked + label:before {
+    background: #7770b7;
+    border-width: 5px;
+    border-color: #fff;
+}
+
+.common-cols .input-group {
+    position: relative;
+}
+
+.common-cols .input-group .input-group-prepend, .common-cols .input-group .input-group-append {
+    position: absolute;
+    right: 0;
+    z-index: 111;
+}
+
+.common-cols .input-group .input-group-append {
+    top: 2px;
+}
+
+.common-cols .input-group .input-group-prepend {
+    bottom: 2px;
+}
+
+.common-cols .input-group .btn.btn-decrement, .common-cols .input-group .btn.btn-increment {
+    background: none;
+    color: #585858;
+    padding: 0;
+    min-width: auto;
+    min-height: auto;
+    height: auto;
+    width: auto;
+}
+
+.common-cols .input-group .btn.btn-decrement strong, .common-cols .input-group .btn.btn-increment strong {
+    display: none;
+}
+
+.common-cols .input-group .btn.btn-decrement {
+    background: left top no-repeat;
+    width: 12px;
+    height: 6px;
+}
+
+.common-cols .input-group .btn.btn-increment {
+    background: left top no-repeat;
+    width: 12px;
+    height: 6px;
+}
+
+.search-filter-Row .common-cols input {
+    border-bottom: 0 none;
+    text-align: left !important;
+    color: #7a7a7a;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.search-filter-Row .common-cols input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.search-filter-Row .common-cols label, .search-filter-Row .col-sm-4 label {
+    font-size: 16px;
+    color: #7770b7;
+    margin-bottom: 3px;
+    padding-left: 25px;
+    text-transform: none;
+    line-height: 24px;
+}
+
+.cityIcon {
+    background: url(../img/map-marker-icon.png) left center no-repeat;
+    padding-left: 20px;
+}
+
+.calenderIcon {
+    background: url(../img/calender-icon.png) left center no-repeat;
+    padding-left: 25px;
+}
+
+.adultIcon {
+    background: url(../img/adult-cion.png) left center no-repeat;
+    padding-left: 30px !important;
+}
+
+.childrenIcon {
+    background: url(../img/children-icon.png) left center no-repeat;
+    padding-left: 30px !important;
+}
+
+.RatingIcon {
+    background: url(../img/rating-icon.png) left center no-repeat;
+    padding-left: 25px;
+}
+
+.priceIconWrap {
+    background: url(../img/price-icon.png) left center no-repeat;
+    padding-left: 25px;
+}
+
+.hotelfacilitiesIcon {
+    background: url(../img/hotel-facilities-icon.png) left center no-repeat;
+}
+
+.facilitiesIcon {
+    background: url(../img/room-facilities.png) left center no-repeat;
+}
+
+.advanceSearchRow {
+    display: none;
+}
+
+.banner-search-form .btn-row {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.banner-search-form .btn-row .common-btn {
+    background: #7770b7;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 30px;
+    border: 0 none;
+    min-width: 150px;
+}
+
+.search-filter-Row {
+    margin-bottom: 20px;
+}
+
+.facilityCheckWrap {
+    height: 80px;
+    overflow: auto;
+}
+
+.advSearchLink {
+    margin-top: -10px;
+    margin-bottom: 25px;
+    display: inline-block;
+    color: #dd572a;
+    position: relative;
+    padding-left: 10px;
+}
+
+.advSearchLink:hover, .advSearchLink:focus, .advSearchLink:active, .advSearchLink:visited {
+    color: #dd572a;
+}
+
+.advSearchLink:before {
+    background: url(../images/arrow-icon.png) left top no-repeat;
+    width: 14px;
+    height: 9px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s ease-out;
+    position: absolute;
+    left: 105%;
+    top: 50%;
+    margin-top: -4px;
+    content: "";
+}
+
+.advSearchLink.active:before {
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+}
+
+.advanceSearchRow {
+    padding: 15px 10px;
+}
+
+.facilityCheckWrap {
+    margin: 20px 0 0px;
+}
+
+.checkboxWrap .checkCol {
+    position: relative;
+}
+
+/*************************banner Search***********************/
+.banner-search-form {
+    background: rgba(255,255,255,0.85);
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    padding: 20px;
+}
+
+.banner-search-form h2 {
+    color: #dd572a;
+    font-size: 55px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    margin-top: 0;
+    text-shadow: none;
+
+
+

@@ -27,6 +27,7 @@
 
     <!--  Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
     @yield('styles')
 </head>
 <body>

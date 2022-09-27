@@ -8,9 +8,9 @@
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="section-title text-center text-primary text-uppercase">Our Rooms</h6>
-                    <h1 class="mb-5">Explore Our rooms in <span class="text-primary text-uppercase">Airport Budget Hotel</span></h1>
+                    <h1 class="mb-5">Explore Our rooms in <span class="text-primary text-uppercase">Ikeja Transit Hotel</span></h1>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15855.064367757775!2d3.3177724697753903!3d6.551188700000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8e122bb6615f%3A0xe1602e6526403732!2s23%20Fatai%20Irawo%20St%2C%20Ajao%20Estate%20102214%2C%20Lagos!5e0!3m2!1sen!2sng!4v1664195165983!5m2!1sen!2sng" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.3522386349323!2d3.343175913797105!3d6.603075424067445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b922eeabd63e5%3A0x1de56e86fd25d49f!2s118%20Obafemi%20Awolowo%20Way%2C%20Allen%20101233%2C%20Ikeja!5e0!3m2!1sen!2sng!4v1664286939911!5m2!1sen!2sng" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 <br>
                 <br>
                 <div class="row g-4">
@@ -600,5 +600,5 @@
     </div>
     <!-- Room End -->
 
-@include('layouts.footer')
+    @include('layouts.footer')
 @endsection

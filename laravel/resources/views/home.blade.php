@@ -57,41 +57,108 @@
     <!-- Booking Start -->
     <div class="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container">
-            <div class="bg-white shadow" style="padding: 35px;">
+            <div class="bg-white shadow" >
                 <div class="row g-2">
-                    <div class="col-md-10">
-                        <div class="row g-2">
-                            <div class="col-md-3">
-                                <div class="date" id="date1" data-target-input="nearest">
-                                    <input type="text" class="form-control datetimepicker-input"
-                                           placeholder="Check in" data-target="#date1" data-toggle="datetimepicker" />
+                    <div class="hotel-search-box">
+                        <div class="container">
+                            <div class="banner-search-form">
+                                <p class="type"><span class="bookingIcon">Booking Type</span></p>
+                                <div class="search-filters-wrap wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="1.7s">
+                                    <form class="booking-form">
+                                        <div class="bookingTypRow text-center radio-warp">
+                                            <div class="radioCol">
+                                                <input type="radio" name="bookingType" id="hourly" value="hourly" /><label for="hourly">Hotel by Hour</label>
+                                            </div> <div class="radioCol">
+                                                <input type="radio" name="bookingType" id="daily" value="daily" checked /><label for="daily">Hotel by Daily</label>
+                                            </div>
+
+                                            <div class="radioCol">
+                                                <input type="radio" name="bookingType" id="weekly" value="weekly" /><label for="weekly">Short Stay</label>
+                                            </div>
+                                            <div class="radioCol">
+                                                <input type="radio" name="bookingType" id="monthly" value="monthly" /><label for="monthly">Long Stay</label>
+                                            </div>
+                                            <div class="radioCol">
+                                                <input type="radio" name="bookingType" id="annual" value="annual" /><label for="annual">Service Apartment </label>
+                                            </div>
+                                        </div>
+                                        <div class="search-filter-Row clearfix">
+                                            <div class="common-cols city-coloumn ">
+                                                <label  class="cityIcon">City or Place</label>
+                                                <input type="text" id="searchText" class="form-control" placeholder="Enter City or Hotel name">
+                                            </div>
+                                            <div class="common-cols chkin-field">
+                                                <label for="txtChkIn" class="calenderIcon">Check In</label>
+                                                <input id="txtChkIn" type="date" class="form-control" name="">
+                                            </div>
+                                            <div class="common-cols chkin-field has-caret hour-type" style="display:none">
+                                                <label style="padding-left:0">In-Time</label>
+                                                <select class="form-control" id="ddlCheckInTime" onchange="bindCheckOutTime()">
+                                                    <option value="0">--:--</option>
+                                                    <option value=" 01:00">01:00 AM</option>
+                                                    <option value=" 02:00">02:00 AM</option>
+                                                    <option value=" 03:00">03:00 AM</option>
+                                                    <option value=" 04:00">04:00 AM</option>
+                                                    <option value=" 05:00">05:00 AM</option>
+                                                    <option value=" 06:00">06:00 AM</option>
+                                                    <option value=" 07:00">07:00 AM</option>
+                                                    <option value=" 08:00">08:00 AM</option>
+                                                    <option value=" 09:00">09:00 AM</option>
+                                                    <option value=" 10:00">10:00 AM</option>
+                                                    <option value=" 11:00">11:00 AM</option>
+                                                    <option value=" 12:00">12:00 PM</option>
+                                                    <option value=" 13:00">01:00 PM</option>
+                                                    <option value=" 14:00">02:00 PM</option>
+                                                    <option value=" 15:00">03:00 PM</option>
+                                                    <option value=" 16:00">04:00 PM</option>
+                                                    <option value=" 17:00">05:00 PM</option>
+                                                    <option value=" 18:00">06:00 PM</option>
+                                                    <option value=" 19:00">07:00 PM</option>
+                                                    <option value=" 20:00">08:00 PM</option>
+                                                    <option value=" 21:00">09:00 PM</option>
+                                                    <option value=" 22:00">10:00 PM</option>
+                                                    <option value=" 23:00">11:00 PM</option>
+
+                                                </select>
+                                            </div>
+                                            <div class="common-cols chkin-field has-caret hour-type" style="display:none">
+                                                <label style="padding-left:0">Out-Time</label>
+                                                <select class="form-control" id="ddlCheckOutTime">
+                                                    <option value="0">--:--</option>
+                                                </select>
+                                            </div>
+                                            <div class="common-cols chkin-field">
+                                                <label for="txtChkOut" class="calenderIcon">Check Out</label>
+                                                <input id="txtChkOut" type="date" class="form-control" name="">
+                                            </div>
+                                            <div class="common-cols common-cols-lg chkin-field">
+                                                <label  class="adultIcon"> Adults</label>
+                                                <input type="number" id="txtAdult" class="form-control" value="0" min="0" max="100" step="1" />
+                                            </div>
+                                            <div class="common-cols common-cols-lg chkin-field">
+                                                <label for="children" class="childrenIcon"> Children</label>
+                                                <input type="number" id="children" class="form-control" value="0" min="0" max="100" step="1" />
+                                            </div>
+
+                                            <div class="common-cols common-cols-lg has-caret chkin-field">
+                                                <label for="price" class="priceIconWrap">Price</label>
+                                                <select id="price" class="form-control">
+                                                    <option value="1000-2000">&#8358; 1000 - 2000</option>
+                                                    <option value="2000-5000">&#8358; 2000 - 5000</option>
+                                                    <option value="5000-10000">&#8358; 5000 - 10000</option>
+                                                    <option value="10000-20000">&#8358; 10000 - 20000</option>
+                                                    <option selected value="">any</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="btn-row">
+                                            <input type="button" id="btnSearch" class="common-btn" value="Search" />
+                                            <a href="javascript:void(0);" id="btnSearchUrl" class="btn" style="display:none">Search</a>
+                                        </div>
+                                    </form>
                                 </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="date" id="date2" data-target-input="nearest">
-                                    <input type="text" class="form-control datetimepicker-input" placeholder="Check out" data-target="#date2" data-toggle="datetimepicker"/>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <select class="form-select">
-                                    <option selected>Adult</option>
-                                    <option value="1">Adult 1</option>
-                                    <option value="2">Adult 2</option>
-                                    <option value="3">Adult 3</option>
-                                </select>
-                            </div>
-                            <div class="col-md-3">
-                                <select class="form-select">
-                                    <option selected>Child</option>
-                                    <option value="1">Child 1</option>
-                                    <option value="2">Child 2</option>
-                                    <option value="3">Child 3</option>
-                                </select>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-2">
-                        <button class="btn btn-primary w-100">Submit</button>
                     </div>
                 </div>
             </div>
