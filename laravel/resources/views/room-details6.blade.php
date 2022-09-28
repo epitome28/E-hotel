@@ -10,6 +10,9 @@
                     <h6 class="section-title text-center text-primary text-uppercase">Our Rooms</h6>
                     <h1 class="mb-5">Explore Our rooms in <span class="text-primary text-uppercase">The Autograph</span></h1>
                 </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4021928304996!2d3.3375683147711133!3d6.596833995229309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b92279c6aaa9b%3A0x364bc0fa68beeb8f!2sAwolowo%20Glass%20House%2C%203%20Babatola%20Cl%2C%20Lagos%20101233%2C%20Ikeja!5e0!3m2!1sen!2sng!4v1664347534937!5m2!1sen!2sng" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <br>
+                <br>
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="room-item shadow room-size rounded overflow-hidden">
