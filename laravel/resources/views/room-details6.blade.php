@@ -30,7 +30,8 @@
                                         <small class="fa fa-star text-primary"></small>
                                         <small class="fa fa-star text-primary"></small>
                                     </div>
-                                </div>
+                                </div>CD laracel
+
                                 <div class="d-flex mb-3">
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bed text-primary me-2"></i>1 Bed</small>
                                     <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>

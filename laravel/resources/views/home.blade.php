@@ -63,13 +63,20 @@
                         <div class="container">
                             <div class="banner-search-form">
                                 <p class="type"><span class="bookingIcon">Booking Type</span></p>
-                                <div class="search-filters-wrap wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="1.7s">
+                                <div class="search-filters-wrap wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.5s">
                                     <form class="booking-form">
                                         <div class="bookingTypRow text-center radio-warp">
                                             <div class="radioCol">
                                                 <input type="radio" name="bookingType" id="hourly" value="hourly" /><label for="hourly">Hotel by Hour</label>
-                                            </div> <div class="radioCol">
-                                                <input type="radio" name="bookingType" id="daily" value="daily" checked /><label for="daily">Hotel by Daily</label>
+                                            </div>
+                                            <div class="radioCol">
+                                                <input type="radio" name="bookingType" id="daily" value="daily" checked /><label for="daily">Hotel by Day</label>
+                                            </div>
+                                            <div class="radioCol">
+                                                <input type="radio" name="bookingType" id="daily" value="daily" checked /><label for="daily">Hotel by night</label>
+                                            </div>
+                                            <div class="radioCol">
+                                                <input type="radio" name="bookingType" id="daily" value="daily" checked /><label for="daily">Group Stay</label>
                                             </div>
 
                                             <div class="radioCol">
@@ -376,7 +383,7 @@
                                                 <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
                                                 <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                             </div>
-                                            <p class="text-body mb-3">Your bed is an important part of your life. We spend a third of our lives asleep, so it is not surprising that your time slumbering can have a big impact on your waking life.</p>
+{{--                                            <p class="text-body mb-3">Your bed is an important part of your life. We spend a third of our lives asleep, so it is not surprising that your time slumbering can have a big impact on your waking life.</p>--}}
                                             <div class="d-flex justify-content-between">
                                                 <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
                                                 <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
@@ -406,7 +413,7 @@
                                                 <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
                                                 <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                             </div>
-                                            <p class="text-body mb-3">Your bed is an important part of your life. We spend a third of our lives asleep, so it is not surprising that your time slumbering can have a big impact on your waking life.</p>
+{{--                                            <p class="text-body mb-3">Your bed is an important part of your life. We spend a third of our lives asleep, so it is not surprising that your time slumbering can have a big impact on your waking life.</p>--}}
                                             <div class="d-flex justify-content-between">
                                                 <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
                                                 <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
@@ -436,7 +443,7 @@
                                                 <small class="border-end me-3 pe-3"><i class="fa fa-bath text-primary me-2"></i>1 Bath</small>
                                                 <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                             </div>
-                                            <p class="text-body mb-3">Your bed is an important part of your life. We spend a third of our lives asleep, so it is not surprising that your time slumbering can have a big impact on your waking life.</p>
+{{--                                            <p class="text-body mb-3">Your bed is an important part of your life. We spend a third of our lives asleep, so it is not surprising that your time slumbering can have a big impact on your waking life.</p>--}}
                                             <div class="d-flex justify-content-between">
                                                 <a class="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
                                                 <a class="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
@@ -505,18 +512,18 @@
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <a class="service-item rounded" href="">
+                    <a class="service-item rounded" href="https://ebnbhotel.com/location/3/cinema">
                         <div class="service-icon bg-transparent border rounded p-1">
                             <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
                                 <i class="fa fa-hotel fa-2x text-primary"></i>
                             </div>
                         </div>
-                        <h5 class="mb-3">Rooms & Appartment</h5>
+                        <h5 class="mb-3">Cinema</h5>
                         <p class="text-body mb-0">I always remember my childhood house with happy memories. There was a beautiful garden, and outside my bedroom window was a jasmine vine which would open in the evenings, giving off a divine scent.</p>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                    <a class="service-item rounded" href="">
+                    <a class="service-item rounded" href="https://ebnbhotel.com/location/7/bar-restaurant">
                         <div class="service-icon bg-transparent border rounded p-1">
                             <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
                                 <i class="fa fa-utensils fa-2x text-primary"></i>
@@ -527,29 +534,29 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <a class="service-item rounded" href="">
+                    <a class="service-item rounded" href="https://ebnbhotel.com/location/5/tourist-beach">
                         <div class="service-icon bg-transparent border rounded p-1">
                             <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
                                 <i class="fa fa-spa fa-2x text-primary"></i>
                             </div>
                         </div>
-                        <h5 class="mb-3">Spa & Fitness</h5>
+                        <h5 class="mb-3">Tourist & Beach</h5>
                         <p class="text-body mb-0">Fitness is not about competing with others. It’s about competing with yourself and working to be better than you were yesterday.</p>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                    <a class="service-item rounded" href="">
+                    <a class="service-item rounded" href="https://ebnbhotel.com/location/4/shopping">
                         <div class="service-icon bg-transparent border rounded p-1">
                             <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
                                 <i class="fa fa-swimmer fa-2x text-primary"></i>
                             </div>
                         </div>
-                        <h5 class="mb-3">Sports & Gaming</h5>
+                        <h5 class="mb-3">Shopping</h5>
                         <p class="text-body mb-0">Remember, it doesn’t matter whether you win or lose; what matters is whether I win or lose</p>
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <a class="service-item rounded" href="">
+                    <a class="service-item rounded" href="https://evenue.ng/event-services">
                         <div class="service-icon bg-transparent border rounded p-1">
                             <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
                                 <i class="fa fa-glass-cheers fa-2x text-primary"></i>
@@ -560,7 +567,7 @@
                     </a>
                 </div>
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                    <a class="service-item rounded" href="">
+                    <a class="service-item rounded" href="https://ebnbhotel.com/location/2/gym-sport">
                         <div class="service-icon bg-transparent border rounded p-1">
                             <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
                                 <i class="fa fa-dumbbell fa-2x text-primary"></i>
@@ -573,7 +580,7 @@
             </div>
         </div>
     </div>
-    <!-- Sevice End -->
+    <!-- Service End -->
 
 
     <!-- Testimonial Start -->

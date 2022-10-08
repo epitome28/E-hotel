@@ -27,13 +27,20 @@
                         <div class="container">
                             <div class="banner-search-form">
                                 <p class="type"><span class="bookingIcon">Booking Type</span></p>
-                                <div class="search-filters-wrap wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="1.7s">
+                                <div class="search-filters-wrap wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.5s">
                                     <form class="booking-form">
                                         <div class="bookingTypRow text-center radio-warp">
                                             <div class="radioCol">
                                                 <input type="radio" name="bookingType" id="hourly" value="hourly" /><label for="hourly">Hotel by Hour</label>
-                                            </div> <div class="radioCol">
-                                                <input type="radio" name="bookingType" id="daily" value="daily" checked /><label for="daily">Hotel by Daily</label>
+                                            </div>
+                                            <div class="radioCol">
+                                                <input type="radio" name="bookingType" id="daily" value="daily" checked /><label for="daily">Hotel by Day</label>
+                                            </div>
+                                            <div class="radioCol">
+                                                <input type="radio" name="bookingType" id="daily" value="daily" checked /><label for="daily">Hotel by night</label>
+                                            </div>
+                                            <div class="radioCol">
+                                                <input type="radio" name="bookingType" id="daily" value="daily" checked /><label for="daily">Group Stay</label>
                                             </div>
 
                                             <div class="radioCol">

@@ -44,17 +44,17 @@
                         <h6 class="section-title text-start text-primary text-uppercase mb-4">Company</h6>
                         <a class="btn btn-link" href="{{url('about')}}">About Us</a>
                         <a class="btn btn-link" href="{{url('contact')}}">Contact Us</a>
-                        <a class="btn btn-link" href="">Privacy Policy</a>
+                        <a class="btn btn-link" href="{{url('privacy')}}">Privacy Policy</a>
                         <a class="btn btn-link" href="">Terms & Condition</a>
-                        <a class="btn btn-link" href="">Support</a>
+                        <a class="btn btn-link" href="{{url('support')}}">Support</a>
                     </div>
                     <div class="col-md-6">
                         <h6 class="section-title text-start text-primary text-uppercase mb-4">Services</h6>
-                        <a class="btn btn-link" href="{{url('services')}}">Food & Restaurant</a>
-                        <a class="btn btn-link" href="{{url('services')}}">Spa & Fitness</a>
-                        <a class="btn btn-link" href="{{url('services')}}">Sports & Gaming</a>
-                        <a class="btn btn-link" href="{{url('services')}}">Event & Party</a>
-                        <a class="btn btn-link" href="{{url('services')}}">GYM & Yoga</a>
+                        <a class="btn btn-link" href="https://ebnbhotel.com/location/3/cinema">Cinema</a>
+                        <a class="btn btn-link" href="https://ebnbhotel.com/location/7/bar-restaurant">Bar & Resturant</a>
+                        <a class="btn btn-link" href="https://ebnbhotel.com/location/5/tourist-beach">Tourist & Beach</a>
+                        <a class="btn btn-link" href="https://evenue.ng/event-services">Event & Party</a>
+                        <a class="btn btn-link" href="https://ebnbhotel.com/location/2/gym-sport">GYM & Yoga</a>
                     </div>
                 </div>
             </div>
@@ -67,14 +67,13 @@
                     &copy;2022 <a class="border-bottom" href="#">E-hotel</a>, All Right Reserved.
 
                     <!--/*** footer.. T. ***/-->
-                    Designed By <a class="border-bottom" href="#">E-hotel</a>
+                    Designed By <a class="border-bottom" href="http://essentialgroup.ng/">Essential Group</a>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <div class="footer-menu">
                         <a href="{{url('home')}}">Home</a>
-                        <a href="">Cookies</a>
-                        <a href="">Help</a>
-                        <a href="">FQAs</a>
+                        <a href="{{url('support')}}">Help</a>
+                        <a href="{{url('faq')}}">FQAs</a>
                     </div>
                 </div>
             </div>

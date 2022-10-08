@@ -29,13 +29,20 @@
                         <div class="container">
                             <div class="banner-search-form">
                                 <p class="type"><span class="bookingIcon">Booking Type</span></p>
-                                <div class="search-filters-wrap wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="1.7s">
+                                <div class="search-filters-wrap wow fadeInUp" data-wow-duration="0.4s" data-wow-delay="0.5s">
                                     <form class="booking-form">
                                         <div class="bookingTypRow text-center radio-warp">
                                             <div class="radioCol">
                                                 <input type="radio" name="bookingType" id="hourly" value="hourly" /><label for="hourly">Hotel by Hour</label>
-                                            </div> <div class="radioCol">
-                                                <input type="radio" name="bookingType" id="daily" value="daily" checked /><label for="daily">Hotel by Daily</label>
+                                            </div>
+                                            <div class="radioCol">
+                                                <input type="radio" name="bookingType" id="daily" value="daily" checked /><label for="daily">Hotel by Day</label>
+                                            </div>
+                                            <div class="radioCol">
+                                                <input type="radio" name="bookingType" id="daily" value="daily" checked /><label for="daily">Hotel by night</label>
+                                            </div>
+                                            <div class="radioCol">
+                                                <input type="radio" name="bookingType" id="daily" value="daily" checked /><label for="daily">Group Stay</label>
                                             </div>
 
                                             <div class="radioCol">
@@ -174,10 +181,10 @@
                 <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
                     <div class="mapouter">
                         <div class="gmap_canvas">
-                            <iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=24%20Iyalla%20St,%20Oregun%20101233,%20Ikeja&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                            <iframe width="500" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=24%20Iyalla%20St,%20Oregun%20101233,%20Ikeja&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                             <a href="https://fmovies-online.net"></a>
                             <br>
-                            <style>.mapouter{position:relative;text-align:right;height:500px;width:500px;}</style>
+                            <style>.mapouter{position:relative;text-align:right;height:400px;width:500px;}</style>
                         </div>
                     </div>
                 </div>
